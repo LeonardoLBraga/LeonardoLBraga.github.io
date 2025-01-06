@@ -14,8 +14,13 @@ export default {
 </script>
 
 <style>
+
+body {
+  background-color: gray;
+  font-family: "Fira Code, Consolas, 'Courier New', monospace";
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
