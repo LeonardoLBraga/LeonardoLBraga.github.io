@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin: 40px 0;
+}
+
+/* Header */
+header {
+    background-color: #83baf5;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .profile {
+    display: inline-block;
+    text-align: center;
+}
+
+header .profile-img {
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+header .job-title {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Seções */
+.section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+ul.social-links li {
+    display: inline-block;
+}
+
+ul.social-links a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s;
+}
+
+ul.social-links a:hover img {
+    transform: scale(1.1);
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
