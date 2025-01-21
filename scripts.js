@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         });
 
     await loadSection('sections/sobre.html', 'main-content');
+    await loadSection('sections/projetos.html', 'main-content');
     await loadSection('sections/experiencia.html', 'main-content');
     await loadSection('sections/educacao.html', 'main-content');
     await loadSection('sections/habilidades.html', 'main-content');
