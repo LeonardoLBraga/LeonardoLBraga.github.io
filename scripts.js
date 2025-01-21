@@ -1,3 +1,31 @@
+//Função para carregar os conteúdos da section
+document.addEventListener("DOMContentLoaded", async () => {
+    const loadSection = async (url, elementId) => {
+        const response = await fetch(url);
+        const data = await response.text();
+        document.getElementById(elementId).innerHTML += data;
+    };
+
+    await fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header-placeholder').innerHTML = data;
+        });
+
+    await loadSection('sections/sobre.html', 'main-content');
+    await loadSection('sections/experiencia.html', 'main-content');
+    await loadSection('sections/educacao.html', 'main-content');
+    await loadSection('sections/habilidades.html', 'main-content');
+    await loadSection('sections/redes-sociais.html', 'main-content');
+
+    await fetch('footer.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer-placeholder').innerHTML = data;
+        });
+});
+
+// Função do butão do modo claro/escuro
 const themeToggleButton = document.getElementById('theme-toggle');
 
 if (localStorage.getItem('theme') === 'dark') {
