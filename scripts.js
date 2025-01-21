@@ -1,13 +1,20 @@
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
+const themeToggleButton = document.getElementById('theme-toggle');
 
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark-mode');
+    themeToggleButton.textContent = '☀️ Modo Claro';
+} else {
+    themeToggleButton.textContent = '🌙 Modo Escuro';
+}
 
-    if (name && email && message) {
-        alert('Mensagem enviada com sucesso!');
+themeToggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+
+    if (document.body.classList.contains('dark-mode')) {
+        themeToggleButton.textContent = '☀️ Modo Claro';
+        localStorage.setItem('theme', 'dark');
     } else {
-        alert('Por favor, preencha todos os campos.');
+        themeToggleButton.textContent = '🌙 Modo Escuro';
+        localStorage.setItem('theme', 'light');
     }
 });
