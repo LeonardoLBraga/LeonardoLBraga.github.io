@@ -4,50 +4,23 @@ body.dark-mode {
     color: #e0e0e0;
 }
 
-body.dark-mode header {
+body.dark-mode .section, #projetos, body.dark-mode header {
     background-color: #1f1f1f;
     color: white;
-}
-
-body.dark-mode .section {
-    background-color: #1f1f1f;
-    color: white;
-}
-
-body.dark-mode #projetos {
-    background-color: #1f1f1f; /* Fundo escuro */
-    color: #e0e0e0; /* Texto claro */
-}
-
-body.dark-mode #projetos h2 {
-    color: #3498db; /* Azul para o título */
 }
 
 body.dark-mode .projeto-item {
-    background-color: #333; /* Fundo escuro para os itens */
-    color: #e0e0e0; /* Texto claro */
-    border: 1px solid #444; /* Borda mais suave */
+    background-color: #333;
+    color: #e0e0e0;
+    border: 1px solid #444;
 }
 
-body.dark-mode .projeto-item h3 {
-    color: #e0e0e0; /* Títulos em cor clara */
-}
-
-body.dark-mode .projeto-item p {
-    color: #ccc; /* Texto das descrições mais claro */
-}
-
-body.dark-mode .projeto-item a {
-    color: #3498db;
+body.dark-mode .projeto-item h3, body.dark-mode .projeto-item p {
+    color: #e0e0e0;
 }
 
 body.dark-mode .projeto-item a:hover {
     text-decoration: underline;
-}
-
-body.dark-mode input, body.dark-mode textarea {
-    background-color: #333;
-    color: #fff;
 }
 
 body.dark-mode button {
