@@ -33,7 +33,37 @@ body.dark-mode footer {
     color: white;
 }
 
+/* Experiencia */
+
+.dark-mode section#experiencia p,
+.dark-mode .timeline-item p {
+    color: #e0e0e0;
+}
+
+.dark-mode .experience-details,
+.dark-mode .timeline {
+    display: none;
+}
+
+.dark-mode .experience-details.active,
+.dark-mode .timeline.active {
+    display: block;
+}
+
+/* Labels */
+
+body.dark-mode .label li {
+    background-color: #1e3a5f;
+    color: #90caf9;
+}
+
+body.dark-mode .label li:hover {
+    background-color: #90caf9;
+    color: #1e3a5f;
+}
+
 /* Modo Claro */
+
 body {
     background-color: #ffffff;
     color: #333333;

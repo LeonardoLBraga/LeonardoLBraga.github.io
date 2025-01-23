@@ -14,11 +14,10 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     await loadSection('sections/sobre.html', 'main-content');
     await loadSection('sections/projetos.html', 'main-content');
+    await loadSection('sections/habilidades.html', 'main-content');
     await loadSection('sections/experiencia.html', 'main-content');
     await loadSection('sections/educacao.html', 'main-content');
-    await loadSection('sections/habilidades.html', 'main-content');
-    await loadSection('sections/redes-sociais.html', 'main-content');
-
+    
     await fetch('footer.html')
         .then(response => response.text())
         .then(data => {
@@ -47,3 +46,17 @@ themeToggleButton.addEventListener('click', () => {
         localStorage.setItem('theme', 'light');
     }
 });
+
+// Função do botão de detalhes
+function toggleDetails(button) {
+    const details = button.parentElement.nextElementSibling;
+    const isVisible = details.style.display === "block";
+
+    if (isVisible) {
+        details.style.display = "none";
+        button.textContent = "Ver atividades";
+    } else {
+        details.style.display = "block";
+        button.textContent = "Ocultar atividades";
+    }
+}

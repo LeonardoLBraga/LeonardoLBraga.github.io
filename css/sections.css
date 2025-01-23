@@ -12,16 +12,55 @@ h2 {
     margin-bottom: 15px;
 }
 
-ul {
-    list-style: none;
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 10px;
-}
-
 /* Experiencia css */
+
+section#experiencia p {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+    color: #333;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+}
+
+section#experiencia p.destaque {
+    font-weight: bold;
+    color: #4a5b6b; 
+}
+
+.timeline-item p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #666;
+    font-weight: normal;
+}
+
+section#experiencia p {
+    padding-left: 0;
+    margin-left: 0;
+    box-shadow: none;
+}
+
+
+.experience-details, .timeline {
+    display: none;
+}
+
+.toggle-details {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+}
+
+.toggle-details:hover {
+    background-color: #1d6fa5;
+}
 
 .experience {
     margin-bottom: 20px;
@@ -62,7 +101,7 @@ ul li {
 }
 
 .timeline-item::before {
-    content: none; /* Remove the bullet points */
+    content: none;
 }
 
 .timeline-item h4 {
@@ -71,7 +110,53 @@ ul li {
     position: relative;
 }
 
-.competencies {
-    color: #0073e6;
-    font-size: 14px;
+/* Sobre mim */
+
+.social-links {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 20px;
 }
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links a {
+    text-decoration: none;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+/* Habilidades */
+
+.label {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 10px;
+}
+
+.label li {
+    display: inline-block;
+    background-color: #1e3a5f;
+    color: #90caf9;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.label li:hover {
+    background-color: #90caf9;
+    color: #1e3a5f;
+}
+
