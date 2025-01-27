@@ -20,7 +20,7 @@ section#experiencia p {
     margin-bottom: 1.2rem;
     color: #333;
     font-family: Arial, sans-serif;
-    text-align: justify;
+    text-align: left;
 }
 
 section#experiencia p.destaque {
