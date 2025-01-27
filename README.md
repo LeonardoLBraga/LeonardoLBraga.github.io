@@ -1,1 +1,2 @@
-# Curriculo
+# Currículo Online - Leonardo Lourenço Braga
+Este site foi desenvolvido como o meu currículo online, com o objetivo de apresentar minhas habilidades, experiências e projetos de forma interativa e acessível. Utilizando HTML, CSS e JavaScript, ele foi projetado para ser uma forma prática e dinâmica de me apresentar a potenciais empregadores e colaboradores. O site foi hospedado diretamente no GitHub, que oferece suporte gratuito para isso por meio do GitHub Pages. O código fonte também está disponível no GitHub para visualização.
