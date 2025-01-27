@@ -41,11 +41,6 @@ section#experiencia p {
     box-shadow: none;
 }
 
-
-.experience-details, .timeline {
-    display: none;
-}
-
 .toggle-details {
     background-color: #3498db;
     color: white;
@@ -78,14 +73,6 @@ section#experiencia p {
 .experience-header span {
     color: #666;
     font-size: 14px;
-}
-
-.experience-details {
-    margin-left: 20px;
-}
-
-.experience-details p {
-    margin: 5px 0;
 }
 
 .timeline {
