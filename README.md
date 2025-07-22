@@ -35,22 +35,21 @@ Este site foi desenvolvido para facilitar o acesso ao meu portfólio por recruta
 ## 📁 Estrutura do Projeto
 
 ```
+LeonardoLBraga.github.io/
 ├── index.html
 ├── css/
 ├── docs/
 ├── img/
 ├── sections/
-   └─── educacao.html
-   └─── experiencia.html
-   └─── habilidades.html
-   └─── projetos.html
-   └─── sobre.html
+│   ├── educacao.html
+│   ├── experiencia.html
+│   ├── habilidades.html
+│   ├── projetos.html
+│   └── sobre.html
 ├── README.md
 ├── LICENSE
 └── ...
 ```
-
----
 
 ## 📂 Como Usar
 
