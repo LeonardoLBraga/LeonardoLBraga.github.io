@@ -1,31 +1,33 @@
 # 👋 Currículo Online – Leonardo Lourenço Braga
 
-Bem-vindo ao meu site de currículo! Este espaço foi criado para apresentar minhas habilidades, experiências e projetos de forma interativa e acessível.
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://leonardolbraga.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+Bem-vindo ao meu currículo online! Aqui você encontra minhas principais habilidades, experiências e projetos, apresentados de forma interativa e acessível.
 
 ---
 
-## 🚀 Sobre o Projeto
+## 📖 Visão Geral
 
-Desenvolvido com HTML, CSS e JavaScript, este site é a minha vitrine digital. Hospedado gratuitamente no GitHub Pages, ele facilita o acesso de recrutadores e colaboradores ao meu portfólio de forma moderna e responsiva.
+Este site foi desenvolvido para facilitar o acesso ao meu portfólio por recrutadores e colaboradores. O layout é moderno, responsivo e otimizado para performance e acessibilidade.
 
 ---
 
-## 🧩 Funcionalidades
+## 🚀 Funcionalidades
 
-- Layout responsivo e compatível com desktop, tablet e celular
-- Seção de habilidades técnicas destacadas
-- Galeria de projetos com descrições e links ao código-fonte
-- Formulário de contato direto por e-mail
+- Layout responsivo (desktop, tablet e celular)
+- Seção de habilidades técnicas
+- Galeria de projetos com descrições e links
 - Suporte a modo escuro
-- Otimizado para performance e acessibilidade
+- Otimização para performance e acessibilidade
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias
 
 - **HTML5** – Estrutura semântica e acessível
 - **CSS3** – Estilização moderna com Flexbox e Grid
-- **JavaScript** – Interatividade e manipulação dinâmica
+- **JavaScript** – Interatividade dinâmica
 - **GitHub Pages** – Deploy rápido e gratuito
 
 ---
@@ -38,6 +40,6 @@ Desenvolvido com HTML, CSS e JavaScript, este site é a minha vitrine digital. H
    `cd LeonardoLBraga.github.io`
 3. Abra o arquivo `index.html` em seu navegador
 
-Ou acesse online: https://leonardolbraga.github.io
+Ou acesse online: [leonardolbraga.github.io](https://leonardolbraga.github.io)
 
 ---
